@@ -59,7 +59,7 @@ var AuthenticationClient = function (options) {
   var managerOptions = {
     clientId: options.clientId,
     headers: {
-      'User-agent': 'node.js/' + process.version.replace('v', ''),
+      'User-agent': 'node.js/' + (process ? process.version.replace('v', '') : 'unknown'),
       'Content-Type': 'application/json'
     },
     baseUrl: util.format(BASE_URL_FORMAT, options.domain)
