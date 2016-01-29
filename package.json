@@ -26,7 +26,8 @@
     "bluebird": "^2.10.2",
     "rest-facade": "^1.2.7",
     "url-join": "0.0.1",
-    "superagent": "^1.1.0"
+    "superagent": "^1.1.0",
+    "util": "^0.10.3"
   },
   "devDependencies": {
     "chai": "^2.2.0",
