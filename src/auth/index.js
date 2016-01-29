@@ -122,7 +122,7 @@ AuthenticationClient.prototype.getClientInfo = function () {
     dependencies: [],
     environment: [{
       name: 'node.js',
-      version: process.version.replace('v', '')
+      version: (process.version ? process.version.replace('v', '') : 'unknown')
     }]
   };
 
